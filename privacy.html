@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.png">
+<title>隱私權政策 — OfficeHub</title>
+<meta name="description" content="OfficeHub 的隱私權政策：說明本應用程式如何存取、使用、儲存與分享 Google 使用者資料。">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f9fe;
+    --border: #d9e4ef;
+    --text: #1f2d3d;
+    --muted: #5b7085;
+    --accent: #2f6fa8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+                 "PingFang TC", "Microsoft JhengHei", sans-serif;
+    line-height: 1.8;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 0 72px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 24px; }
+  h1 { font-size: 1.7rem; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 10px; }
+  h3 { font-size: 1rem; margin: 22px 0 8px; color: var(--muted); }
+  p { margin: 0 0 14px; }
+  ul { padding-left: 1.3em; margin: 0 0 14px; }
+  li { margin-bottom: 8px; }
+  .updated { color: var(--muted); font-size: 0.92rem; margin: 0; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 18px 0;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  code {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141a20;
+      --surface: #1c242d;
+      --border: #2d3944;
+      --text: #e8eef4;
+      --muted: #9fb0c0;
+      --accent: #7fb6e6;
+    }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>隱私權政策</h1>
+    <p class="updated">適用於 Android 應用程式「OfficeHub」（套件名稱：com.xingyen.officehub）<br>
+    最後更新日期：2026 年 9 月 19 日</p>
+  </header>
+
+  <h2>總覽</h2>
+  <div class="card">
+    <p>
+      本應用程式沒有後端伺服器，也沒有帳號系統。你在 App 內建立的所有照片、文字與設定，
+      都只儲存在你自己的裝置上。開發者無法讀取、也不會收到這些內容。
+    </p>
+    <p>
+      App 唯一的對外連線，是在你主動開啟並使用「上傳到雲端」功能時，
+      由你的手機直接對 Google Drive 發出的請求。資料不會經過開發者的任何伺服器。
+    </p>
+  </div>
+
+  <h2>我們存取哪些資料</h2>
+
+  <h3>你在 App 內建立的內容</h3>
+  <p>
+    包含查驗照片、每列的文字說明、報告標題、日期與查驗項目。這些資料儲存於 App 在你裝置上的
+    私有目錄中，不會自動上傳到任何地方。
+  </p>
+
+  <h3>Google 帳號與 Google Drive 資料</h3>
+  <p>
+    只有在你主動點選「連結 Google Drive」之後，App 才會請求以下權限：
+  </p>
+  <ul>
+    <li>
+      <code>https://www.googleapis.com/auth/drive.file</code><br>
+      用途：把你在 App 中產生的 PDF 報告與查驗照片，上傳到你自己指定的 Google Drive 資料夾。
+      這項權限的範圍僅限於「由本 App 建立或由你透過本 App 開啟的檔案」，
+      本 App 無法讀取、搜尋、下載或修改你 Drive 中的其他任何檔案。
+    </li>
+    <li>
+      基本帳號資訊（電子郵件地址）<br>
+      用途：僅在 App 的設定畫面中顯示你目前連結的是哪一個 Google 帳號，方便你確認。
+      這個地址不會被傳送到任何伺服器，也不會被用於其他用途。
+    </li>
+  </ul>
+
+  <h2>我們如何使用這些資料</h2>
+  <ul>
+    <li>把你選擇的 PDF 與照片檔案，寫入你指定的 Google Drive 資料夾。</li>
+    <li>在設定畫面顯示目前連結的帳號，以及驗證你貼上的資料夾網址是否可寫入。</li>
+  </ul>
+  <p>
+    僅此而已。我們不會分析、統計、建立使用者輪廓，也不會將任何資料用於廣告投放。
+  </p>
+
+  <h2>我們如何儲存這些資料</h2>
+  <ul>
+    <li>照片、文字與設定儲存在你裝置上的 App 私有目錄。</li>
+    <li>
+      Google 帳號的授權憑證由 Android 系統的 Google Play 服務管理與更新，
+      本 App 不會自行儲存你的密碼或長期憑證。
+    </li>
+    <li>開發者端沒有資料庫，也沒有伺服器可以儲存你的任何資料。</li>
+  </ul>
+
+  <h2>我們是否分享這些資料</h2>
+  <p>
+    不會。本應用程式不會將你的資料出售、出租或分享給任何第三方。
+    唯一的資料傳輸對象是 Google Drive，而且檔案是寫進你自己帳號下的資料夾。
+  </p>
+
+  <h2>Google 使用者資料的有限使用聲明</h2>
+  <div class="card">
+    <p>
+      本應用程式對於透過 Google API 所取得資訊的使用與傳輸，均遵守
+      <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">
+      Google API 服務使用者資料政策</a>，包含其中的「有限使用」（Limited Use）規定。
+    </p>
+    <p>
+      具體而言，本應用程式不會將 Google 使用者資料用於提供或改進上述功能以外的用途、
+      不會轉移給他人（法律要求、維護安全性或取得你明確同意的情況除外）、
+      不會用於投放廣告，也不會用於訓練任何一般化的人工智慧或機器學習模型。
+      任何人（包含開發者）都不會讀取這些資料。
+    </p>
+  </div>
+
+  <h2>裝置權限</h2>
+  <ul>
+    <li><strong>相機</strong>：用於在現場拍攝查驗照片。</li>
+    <li><strong>讀取相片</strong>：用於從相簿選取既有照片加入報告。</li>
+    <li><strong>儲存相片</strong>：僅在你開啟「照片存進手機相簿」設定後，才會把查驗照片另存一份到相簿。</li>
+  </ul>
+
+  <h2>如何刪除你的資料</h2>
+  <ul>
+    <li>
+      <strong>App 內的內容</strong>：使用 App 中的「清空」功能，或直接解除安裝本應用程式，
+      裝置上的所有相關資料都會一併移除。
+    </li>
+    <li>
+      <strong>已上傳到 Drive 的檔案</strong>：這些檔案屬於你的 Google 帳號，
+      請直接在 Google Drive 中刪除。
+    </li>
+    <li>
+      <strong>解除授權</strong>：可在 App 的設定中選擇「取消連結」，
+      或前往
+      <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google 帳號的第三方應用程式權限頁面</a>
+      移除本應用程式的存取權。
+    </li>
+  </ul>
+
+  <h2>兒童隱私</h2>
+  <p>
+    本應用程式為營建產業的工作用途而設計，並非以未滿 13 歲之兒童為對象，
+    也不會刻意收集兒童的個人資料。
+  </p>
+
+  <h2>政策變更</h2>
+  <p>
+    若本政策有所修改，我們會更新本頁面並調整上方的「最後更新日期」。
+  </p>
+
+  <h2>聯絡方式</h2>
+  <p>
+    對本隱私權政策有任何疑問，請來信：
+    <a href="mailto:xingyen0613@gmail.com">xingyen0613@gmail.com</a>
+  </p>
+
+  <footer>
+    <a href="index.html">← 回首頁</a>
+  </footer>
+</main>
+</body>
+</html>
