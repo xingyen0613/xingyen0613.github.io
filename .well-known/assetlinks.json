@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.xingyen.officehub",
+      "sha256_cert_fingerprints": [
+        "99:50:3B:B2:5E:DA:29:4A:73:29:2F:96:E1:57:F3:42:BF:37:1A:C4:80:6F:09:1F:11:88:D8:9D:52:08:FF:30"
+      ]
+    }
+  }
+]
